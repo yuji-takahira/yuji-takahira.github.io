@@ -1,0 +1,538 @@
+html{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+span {
+    display: block;
+}
+
+body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://illust-ryokka.jp/wp-content/uploads/cache/2022/06/Wave-pattern-17/984925299.png");
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    border: 1px solid green;
+    position: relative;
+}
+
+h1{
+    position: absolute;
+    font-size: 90px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#main{
+    margin-top: 3%;
+    background-color: rgba(255, 31, 248, 0.548);
+    border-radius: 50px 0 50px 0;
+}
+
+.button-058 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-width: 250px;
+    margin: 2.5em auto;
+    padding: .9em 2em;
+    border: none;
+    border-radius: 5px;
+    background-color: #028a00;
+    color: #fff;
+    font-weight: 600;
+    font-size: 2em;
+    display: inline-block;
+    margin: 0 10px;
+    justify-content: space-evenly;
+}
+
+.button-058:hover {
+    background-color: #3cff00;
+}
+
+.button-058 span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -1.75em;
+    left: -2.5em;
+    padding: 1em 1.5em;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #028a00;
+    font-size: .7em;
+}
+
+.button-058 span::after {
+    position: absolute;
+    bottom: .3em;
+    right: 0;
+    width: 1.5em;
+    height: 1.5em;
+    background-color: #fff;
+    clip-path: polygon(40% 0, 100% 100%, 0% 90%);
+    content: '';
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn{
+    display:inline-block;
+}
+
+div{
+    text-align:center;
+}
+
+.img2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.space{
+    display: flex;
+    justify-content: center;
+}
+
+.book-simple {
+    position: relative;
+    box-sizing: border-box;
+    width: 500px;
+    height: 550px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 400px;
+    padding-bottom: 10px;
+    -webkit-transition: all 2s ease;
+            transition: all 2s ease;
+    background-color: #ff8522;
+    box-shadow: -2px 0 0 0 #ff8522,-1px 4px 1px 1px rgba(0,0,0,.2),20px 0 20px 0 rgba(0,0,0,0);
+  
+    -webkit-perspective: 1000px;
+            perspective: 1000px;
+    -webkit-perspective-origin: 0 150%;
+            perspective-origin: 0 150%;
+    position: absolute;
+  }
+  .book-simple:hover{
+    box-shadow: -2px 0 0 0 #ff8522,0 4px 1px 1px rgba(0,0,0,.2),-195px 5px 1px -5px rgba(0,0,0,.2);
+  }
+  .book-simple .book-inbox {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 10px;
+    transition: all 1.8s ease;
+    transition-delay: .3s;
+    background-color: #6d6d6d;
+    box-shadow: 0 8px 0 0 #afada3,200px 0 1px 0 rgba(0,0,0,.4) inset,-2px 0 0 0 #ff8522;
+  }
+  .book-simple:hover .book-inbox {
+    box-shadow: 0 8px 0 0 #afada3,-0 0 8px 0 rgba(0,0,0,.0) inset,-2px 0 0 0 #ff8522;
+  }
+  .book-simple::before {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: calc( 100% - 10px);
+    content: '';
+    -webkit-transition: all 2.5s ease;
+            transition: all 2.5s ease;
+    -webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
+    background-color: #ff8522;
+    box-shadow: 0 2px 0 0 #ff8522;
+  }
+  .book-simple:hover::before {
+    -webkit-transform: rotateY(-185deg);
+            transform: rotateY(-185deg);
+  }
+
+  .btn1{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    margin-left: 900px;
+    }
+    
+    .県名{
+        color: black;
+    }
+
+  .btn2{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        margin-top: 637px;
+        margin-left: 545px;
+        }
+ .btn3{
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            margin-top: 750px;
+            margin-left: 485px;
+            }
+  .btn4{
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            margin-top: 765px;
+            margin-left: 675px;
+            }
+            
+    .btn5{
+                position: absolute;
+                display: flex;
+                justify-content: center;
+                margin-top: 900px;
+                margin-left: 600px;
+                } 
+    .btn6{
+                position: absolute;
+                display: flex;
+                justify-content: center;
+                margin-top: 900px;
+                margin-left: 450px;
+                 } 
+    .btn7{
+                position: absolute;
+                display: flex;
+                justify-content: center;
+                margin-top: 1040px;
+                margin-left: 455px;
+                 } 
+   .btn8{
+                position: absolute;
+                display: flex;
+                justify-content: center;
+                margin-top: 1150px;
+                margin-left: 220px;
+                 }
+    .btn9{
+       position: absolute;
+       display: flex;
+       justify-content: center;
+       margin-top: 1130px;
+       margin-left: 380px;
+        }
+
+   .btn10{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: 1160px;
+    margin-left: 500px;
+     }
+
+    .btn11{
+       position: absolute;
+       display: flex;
+       justify-content: center;
+       margin-top: 1210px;
+       margin-left: 300px;
+        }
+ 
+    .btn12{
+       position: absolute;
+       display: flex;
+       justify-content: center;
+       margin-top: 1270px;
+       margin-left: 500px;
+        }
+ 
+    .btn13{
+       position: absolute;
+       display: flex;
+       justify-content: center;
+       margin-top: 1250px;
+       margin-left: 300px;
+        }
+ 
+    .btn14{
+       position: absolute;
+       display: flex;
+       justify-content: center;
+       margin-top: 1280px;
+       margin-left: 300px;
+        }
+ 
+    .btn15{
+       position: absolute;
+       display: flex;
+       justify-content: center;
+       margin-top: 1040px;
+       margin-left: 215px;
+        }
+    .btn16{
+       position: absolute;
+       display: flex;
+       justify-content: center;
+       margin-top: 1210px;
+       margin-left: 50px;
+        }
+ 
+    .btn17{
+       position: absolute;
+       display: flex;
+       justify-content: center;
+       margin-top: 1260px;
+       margin-left: 170px;
+        }
+ 
+     .btn18{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        margin-top: 1340px;
+        margin-left: 50px;
+         }
+ 
+    .btn19{
+       position: absolute;
+       display: flex;
+       justify-content: center;
+       margin-top: 1330px;
+       margin-left: -130px;
+        }  
+     .btn20{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        margin-top: 1250px;
+        margin-left: -135px;
+         }
+ 
+   .btn21{
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      margin-top: 1140px;
+      margin-left: -120px;
+       }
+    .btn22{
+       position: absolute;
+       display: flex;
+       justify-content: center;
+       margin-top: 1170px;
+       margin-left: -240px;
+        }
+ 
+   .btn23{
+       position: absolute;
+       display: flex;
+       justify-content: center;
+       margin-top: 1210px;
+       margin-left: -300px;
+        }
+
+    .btn24{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        margin-top: 1330px;
+        margin-left: -350px;
+         }
+
+   .btn25{
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      margin-top: 1400px;
+      margin-left: -290px;
+       }
+
+   .btn26{
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      margin-top: 1430px;
+      margin-left: -380px;
+       }
+
+   .btn27{
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      margin-top: 1480px;
+      margin-left: -480px;
+       }
+
+   .btn28{
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      margin-top: 1390px;
+      margin-left: -485px;
+       }
+     .btn29{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        margin-top: 1300px;
+        margin-left: -480px;
+         }
+
+   .btn30{
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      margin-top: 1325px;
+      margin-left: -600px;
+       }
+   .btn31{
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      margin-top: 1425px;
+      margin-left: -800px;
+       }
+
+   .btn32{
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      margin-top: 1465px;
+      margin-left: -720px;
+       }
+
+   .btn33{
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      margin-top: 1490px;
+      margin-left: -900px;
+       }
+   .btn34{
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      margin-top: 1480px;
+      margin-left: -1000px;
+       }
+
+   .btn35{
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      margin-top: 1280px;
+      margin-left: -800px;
+       }
+
+   .btn36{
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      margin-top: 1290px;
+      margin-left: -1000px;
+       }
+
+   .btn37{
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      margin-top: 1340px;
+      margin-left: -800px;
+       }
+
+     .btn38{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        margin-top: 1370px;
+        margin-left: -1000px;
+  }
+     .btn39{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        margin-top: 1410px;
+        margin-left: -1250px;
+         }
+     .btn40{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        margin-top: 1480px;
+        margin-left: -1450px;
+         }
+     .btn41{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        margin-top: 1510px;
+        margin-left: -1350px;
+         }
+   .btn42{
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      margin-top: 1510px;
+      margin-left: -1550px;
+       }
+    .btn43{
+       position: absolute;
+       display: flex;
+       justify-content: center;
+       margin-top: 1580px;
+       margin-left: -1620px;
+        }
+    .btn44{
+       position: absolute;
+       display: flex;
+       justify-content: center;
+       margin-top: 1590px;
+       margin-left: -1450px;
+        }
+    .btn45{
+       position: absolute;
+       display: flex;
+       justify-content: center;
+       margin-top: 1650px;
+       margin-left: -1300px;
+        }
+    .btn46{
+       position: absolute;
+       display: flex;
+       justify-content: center;
+       margin-top: 1685px;
+       margin-left: -1500px;
+        }
+    .btn47{
+       position: absolute;
+       display: flex;
+       justify-content: center;
+       margin-top: 1685px;
+       margin-left: 920px;
+        }
+
+        .abc{
+            font-size: 70px;
+        }
+
+        .dd{
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+            font-size: 45px;
+            color: white;
+        }
